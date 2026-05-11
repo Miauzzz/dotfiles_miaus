@@ -40,7 +40,7 @@ PanelWindow {
     anchors.fill: parent
     anchors.leftMargin : 10
     anchors.rightMargin : 10
-    anchors.topMargin : 10
+    anchors.topMargin : 0
     anchors.bottomMargin : 10
 
     color : "transparent"
@@ -60,7 +60,7 @@ PanelWindow {
       anchors.fill: parent
       anchors.leftMargin: 10
       anchors.rightMargin: 10
-      anchors.topMargin: 10
+      anchors.topMargin: 0
       anchors.bottomMargin: 10
       radius: 15
     }
