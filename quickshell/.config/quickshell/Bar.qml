@@ -26,7 +26,9 @@ PanelWindow {
 
             Row {
                 anchors.horizontalCenter: parent.horizontalCenter
-                spacing: 12
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.verticalCenterOffset: -14
+                spacing: 20
 
                 Repeater {
                     model: 9
@@ -68,9 +70,11 @@ PanelWindow {
 
             Text {
                 anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.verticalCenterOffset: 5
                 text: "우리는 각자의 지옥에서만 행복할 거야"
                 color: "#09f"
-                font.pixelSize: 11
+                font.pixelSize: 12
                 font.bold: false
             }
         }
